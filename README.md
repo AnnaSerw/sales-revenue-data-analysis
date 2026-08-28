@@ -64,19 +64,19 @@ See revenue_analysis.sql for the complete SQL code.
 
 The first query is quite general, but it should be asked, nonetheless. This will show whether there is an overall upward or downward trend in revenue over the months. 
 
-How did revenue change month by month?
+**How did revenue change month by month?**
 
 ## ![](monthly_revenue_trend.png)
 
 Revenue fluctuated throughout the analyzed period, with several noticeable peaks and declines. Overall, there is no clear consistent upward or downward trend.
 
-How did the average invoice value change across years?
+**How did the average invoice value change across years?**
 
 ## ![](average_invoice_value_by_year.png)
 
 As can be seen, the highest value in 2022 with amount of 5.80. To compare with previous query (about monthly revenue trend) in 2022 there were higher sales and no sudden drops in sales to compare next years. The average invoice value remained relatively stable in 2021, indicating a period of stagnation.
 
-Which 10 countries generate the highest revenue?
+**Which 10 countries generate the highest revenue?**
 
 ## ![](revenue_share_countries.png)
 
