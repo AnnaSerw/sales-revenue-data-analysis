@@ -40,6 +40,7 @@ Checked the number of customers: 59. Checked the number of countries: 24. Checke
 
 ### Data quality check
 See data_quality_check.sql for the complete SQL code.
+
 First check completeness of data in tables which will be essential in the analyses process. There are two ways to check if there are missing values in columns. The first is to check column by column but it can take some time in this case. The second way is to check if there are null in columns regarding tables (as indicated in the business understanding step). As can be seen in the tables below there are some missing data:
 Customer table, there are missing values in the columns: Company, State, PostalCode, Phone and Fax;
 Invoice table: BillingState, BillingPostalCode;
